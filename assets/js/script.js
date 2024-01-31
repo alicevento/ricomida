@@ -16,8 +16,8 @@ $(document).ready(function () {
 });
 
 $(".vanish-btn").click(function () {
-  $(".vanish").hide();
-});
+    $(".vanish").toggle();
+  });
 
 //Tooltip
 var tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
